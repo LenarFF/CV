@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icons/favicon.svg" />
+    <title>CV Ленар Фасхиев</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Ленар Фасхиев</h1>
+        
+      </header>
+      <main>
+        <section class="summary">
+          <h2 class="main__subtitle">Junior front-end developer</h2>
+          <p class="summary__text">
+            Мне 37 лет. Моя цель стать фронтенд программистом. Не имею опыта
+            реальной разработки, но надеюсь, что мои усилия в обучении не прошли
+            даром. Готов к переезду и к работе удалённо
+          </p>
+          <address>
+            <span class="city">
+              <a
+                class="city__link"
+                href="https://goo.gl/maps/VDmQb4o8Hxfhu8Qj6"
+                target="_blank"
+                ><img
+                  src="icons/maps-black.svg"
+                  alt=""
+                  class="contacts__icon"
+                />Набережные Челны, Татарстан, Россия</a
+              >
+            </span>
+            <ul class="contacts">
+              <li class="contacts__item">
+                <a title="позвонить" href="tel:+79625617489"
+                  ><img
+                    src="icons/phone-call.svg"
+                    alt=""
+                    class="contacts__icon"
+                  />+7 (962) 561 74 89</a
+                >
+                <button
+                  title="скопировать"
+                  data-value="+79625617489"
+                  class="contacts__copy"
+                ></button>
+              </li>
+              <li class="contacts__item">
+                <a
+                  title="перейти по ссылке"
+                  href="https://t.me/fh4325"
+                  target="_blank"
+                  ><img
+                    src="icons/telegram-black.svg"
+                    alt=""
+                    class="contacts__icon"
+                  />@fh4325</a
+                >
+                <button
+                  title="скопировать"
+                  data-value="@fh4325"
+                  class="contacts__copy"
+                ></button>
+              </li>
+              <li class="contacts__item">
+                <a
+                  title="перейти по ссылке"
+                  href="mailto:flfforwork@gmail.com"
+                  target="_blank"
+                  ><img
+                    src="icons/mail.svg"
+                    alt=""
+                    class="contacts__icon"
+                  />flfforwork@gmail.com
+                </a>
+                <button
+                  title="скопировать"
+                  data-value="flfforwork@gmail.com"
+                  class="contacts__copy"
+                ></button>
+              </li>
+              <li class="contacts__item">
+                <a
+                  title="перейти по ссылке"
+                  href="https://github.com/LenarFF"
+                  target="_blank"
+                  ><img
+                    src="icons/github.svg"
+                    alt=""
+                    class="contacts__icon"
+                  />LenarFF</a
+                >
+                <button
+                  title="скопировать"
+                  data-value="LenarFF"
+                  class="contacts__copy"
+                ></button>
+              </li>
+            </ul>
+          </address>
+        </section>
+        <section class="info">
+          <div id="skills" class="skills">
+            <h2>Навыки</h2>
+            <ul class="skills__list">
+              <li class="skills__item">HTML</li>
+              <li class="skills__item">CSS</li>
+              <li class="skills__item">JavaScript</li>
+              <li class="skills__item">React</li>
+              <li class="skills__item">SASS</li>
+              <li class="skills__item">Webpack</li>
+              <li class="skills__item">Git</li>
+              <li class="skills__item">Eslint</li>
+              <li class="skills__item">TypeScript</li>
+            </ul>
+          </div>
+          <div id="education" class="education">
+            <h2>Образование</h2>
+            <ul class="education__list">
+              <li>Камский политехнический институт. Автомобилестроение</li>
+              <li>
+                <a
+                  href="https://app.rs.school/certificate/n4ypbaxl"
+                  target="_blank"
+                  class="education__item education__item_link"
+                  >RSSchool-курсы JavaScript/Frontend</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div id="languages" class="languages">
+            <h2>Языки</h2>
+            <ul class="languages__list">
+              <li>Русский</li>
+              <li>Татарский</li>
+              <li>Английский A2-B1</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="experience" class="experience">
+          <h2>Опыт работы</h2>
+          <p class="experience__text">
+            Мой опыт работы никак не связан с программированием и фронтендом
+          </p>
+        </section>
+        <section id="projects" class="projects">
+          <h2>Проекты</h2>
+          <article class="project-card">
+            <a
+              title="перейти по ссылке"
+              href="https://rslang-lenarff.netlify.app/"
+              target="_blank"
+              class="project-card__link"
+              ><img
+                src="images/RSLang.jpg"
+                alt="english-app"
+                class="project-card__img"
+            /></a>
+            <div class="project-card__info">
+              <h3 class="project-card__title">Изучение английских слов</h3>
+              <p class="project-card__text">
+                Приложение для изучения английских слов. Выполнено в команде с
+                напарником. Вклад в разработку указан на главной странице
+              </p>
+              <p class="project-card__technologies">
+                Технологии: HTML, SCSS, TypeScript, webpack, eslint
+              </p>
+              <a
+                class="project-card__github-link"
+                href="https://github.com/LenarFF/RSLang"
+                target="_blank"
+                >github</a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="project-card">
+            <a
+              title="перейти по ссылке"
+              href="https://lenarff-christmas.netlify.app/"
+              target="_blank"
+              class="project-card__link"
+              ><img
+                src="images/christmas.jpg"
+                alt="christmas-app"
+                class="project-card__img"
+            /></a>
+            <div class="project-card__info">
+              <h3 class="project-card__title">Ёлочные игрушки</h3>
+              <p class="project-card__text">
+                Приложение позволяет выбирать ёлочные игрушки по разным
+                параметрам и украшать ёлку
+              </p>
+              <p class="project-card__technologies">
+                Технологии: HTML, SCSS, React, TypeScript, webpack, eslint
+              </p>
+              <p class="project-card__github">
+                <a
+                  class="project-card__github-link"
+                  href="https://github.com/LenarFF/christmas"
+                  target="_blank"
+                  >github</a
+                >
+              </p>
+            </div>
+          </article>
+          <hr />
+          <article class="project-card">
+            <a
+              title="перейти по ссылке"
+              href="https://english-for-kids.netlify.com/"
+              target="_blank"
+              class="project-card__link"
+              ><img
+                src="images/english-for-kids.jpg"
+                alt="english-app"
+                class="project-card__img"
+            /></a>
+            <div class="project-card__info">
+              <h3 class="project-card__title">Английский для детей</h3>
+              <p class="project-card__text">
+                Приложение для изучения английских слов детьми
+              </p>
+              <p class="project-card__technologies">
+                Технологии: HTML, SCSS, TypeScript, webpack, eslint
+              </p>
+              <a
+                class="project-card__github-link"
+                href="https://github.com/LenarFF/english-for-kids"
+                target="_blank"
+                >github</a
+              >
+            </div>
+          </article>
+          <hr />
+          <article class="project-card">
+            <a
+              title="перейти по ссылке"
+              href="https://rolling-scopes-school.github.io/lenarff-JSFE2021Q3/momentum/"
+              target="_blank"
+              class="project-card__link"
+              ><img
+                src="images/momentum.jpg"
+                alt="momentum-app"
+                class="project-card__img"
+            /></a>
+            <div class="project-card__info">
+              <h3 class="project-card__title">Momentum</h3>
+              <p class="project-card__text">
+                Аналог одноимённого приложения интернет-магазина Chrome.
+                <span class="project-card__optional-text"
+                  >Приложение показывает время и имя пользователя. Фоновое
+                  изображение и приветствие меняются в зависимости от времени
+                  суток. В приложении есть часы, слайдер изображений, виджеты
+                  погоды, аудиоплеер, блок цитата дня, настройки.</span
+                >
+              </p>
+              <p class="project-card__technologies">
+                Технологии: HTML, SCSS, TypeScript, webpack, eslint
+              </p>
+              <a
+                class="project-card__github-link"
+                href="https://github.com/LenarFF/momentum"
+                target="_blank"
+                >github</a
+              >
+            </div>
+          </article>
+        </section>
+      </main>
+      <script src="script.js"></script>
+    </div>
+    <footer>2022</footer>
+  </body>
+</html>
