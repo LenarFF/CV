@@ -83,7 +83,7 @@ address {
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-.contacts__item a {
+.contacts__item span {
   display: flex;
   align-items: center;
   width: 100%;
